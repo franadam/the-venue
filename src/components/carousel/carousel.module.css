@@ -1,0 +1,44 @@
+.main {
+  position: relative;
+  top: 0;
+  width: 100vw;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide {
+  display: none;
+  animation: carousel 2s linear;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes carousel {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.featured {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  padding: .2rem;
+  border: .1rem solid white;
+}
+
+.featured div{
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 1.2rem;
+  border: .1rem solid white;
+}

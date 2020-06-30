@@ -1,0 +1,47 @@
+/*====================
+        HEADER
+======================*/
+
+.navbar {
+  padding:1rem;
+  color: white;
+  transition: all 300ms ease-in;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  top: 0;
+}
+
+.logo {
+  text-align: right;
+  order: 1;
+}
+
+.logo_title {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+}
+
+.logo_subtitle {
+  text-transform: uppercase;
+}
+
+.menu div {
+  width: 2rem;
+  height: .3rem;
+  background-color: white;
+  margin: .4rem 0;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu:hover div {
+  background-color: brown;
+  box-shadow: 2px 2px 2px rgba(184, 46, 46, 0.7);
+}
