@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}

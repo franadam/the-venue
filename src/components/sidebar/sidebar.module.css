@@ -8,6 +8,7 @@
   height: 100vh;
   padding: .7rem; 
   width: 50vw;
+  z-index: 20;
 }
 
 .link_list {
@@ -19,16 +20,13 @@
 .link {
   margin: 1.2rem 0;
   display: block;
-}
-
-.link a {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
-.link:hover a,
-.link a:hover,
-.link a:active {
+.link:hover,
+.link:active {
   color: brown;
 }

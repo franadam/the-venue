@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: .5rem 0;
+  width: 80%;
+  border: .2rem solid orange;
+  background-color: rgba(153, 205, 50, 0.7)
+}
+
+.item:hover {
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0%, .7);
+  background-color: rgba(153, 205, 50);
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.type {
+  font-size: 1.2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.separation {
+  background: rgba(255, 165, 0, 0.6);
+  color: rgba(255, 165, 0, 0.6);
+  height: .1rem;
+  width: 100%;
+}
+
+.info {
+  text-align: center;
+}
+
+.highlighted {
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0%, .7);
+  background-color: rgb(76, 109, 9);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.highlighted:hover {
+  background-color: rgb(45, 65, 6);
+}
+
+.badge {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  text-transform: uppercase;
+  background-color: brown;
+  padding: .7rem;
+  font-size: .7rem;
+  text-align: center;
+  width: 10rem;
+  transform: rotateZ(45deg) translateX(1.8rem) translateY(-2.1rem);
+}

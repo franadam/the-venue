@@ -5,9 +5,9 @@
 .navbar {
   padding:1rem;
   color: white;
-  transition: all 300ms ease-in;
-  background-color: transparent;
+  background-color: #000000e6;
   display: flex;
+  transition: background-color 300ms ease-in;
   justify-content: space-between;
   align-items: center;
   position: fixed;

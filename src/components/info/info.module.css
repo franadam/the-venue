@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(17, 58, 35);
+  color: white;
+}
+
+.item {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: .2rem;
+  border: .1rem solid white;
+  position: relative;
+  top: 0;
+}
+
+.wrapper {
+  padding: 1.2rem;
+  border: .1rem solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  transform: translateY(-1.6rem) rotate(45deg);
+  position: absolute;
+  padding: .7rem;
+  top: 0;
+  width: 3.3rem;
+  height: 3.3rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.calendar {
+  background-color: orange;
+}
+
+.location {
+  background-color: rgb(255, 0, 64);
+}
+
+.icon img {
+  transform: rotate(-45deg);
+}
+
+.title {
+  margin-top: 1.3rem;
+  padding-bottom: .7rem;
+  font-size: 1.2rem;
+}
+
+.separation {
+  background: rgba(255, 255, 255, 0.6);
+  height: .1rem;
+  width: 100%;
+}
+
+.subtitle {
+  text-align: center;
+}

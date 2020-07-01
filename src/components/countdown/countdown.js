@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import classes from './countdown.module.css';
 
-export default class countdown extends Component {
+export default class Countdown extends Component {
   state = {
     deadline : new Date(2020, 11, 24, 20, 30),
     days: '0',
@@ -60,7 +60,7 @@ export default class countdown extends Component {
       secondes
     } = this.state;
     return (
-      <div className={classes.main}>
+      <div id="countdown" className={classes.main}>
               <div className={classes.title}>Event Start in</div>
               <div className={classes.times}>
                 <div className={classes.item}>

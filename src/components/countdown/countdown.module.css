@@ -1,7 +1,7 @@
 .main {
   bottom: 0px;
+  background-color: brown;
   left: 0px;
-  background: red;
   display: flex;
   flex-direction: column;
   transform: translateX(-100vw);

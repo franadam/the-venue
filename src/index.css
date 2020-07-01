@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&family=Righteous&family=Roboto:wght@300;500&display=swap');
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  padding:0;
+  margin:0;
 }

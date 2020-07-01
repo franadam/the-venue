@@ -40,7 +40,6 @@ export default class carousel extends Component {
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-    console.log('index: ', index);
     
     index = index >= 2 ? 0 : index + 1;
     slides[index].style.display = "block"; 
