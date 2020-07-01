@@ -48,9 +48,9 @@
 }
 
 .title {
+  font-weight: bold;
   margin-top: 1.3rem;
   padding-bottom: .7rem;
-  font-size: 1.2rem;
 }
 
 .separation {
@@ -61,4 +61,16 @@
 
 .subtitle {
   text-align: center;
+}
+
+@media screen and (min-width: 42rem) {
+  .main {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
 }

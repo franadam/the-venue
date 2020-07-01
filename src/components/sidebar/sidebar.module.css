@@ -1,6 +1,6 @@
 .sidebar{
+  display: flex;
   background-color: azure;
-  display: none;
   flex-direction: column;
   align-items: center;
   position: fixed;
@@ -8,6 +8,8 @@
   height: 100vh;
   padding: .7rem; 
   width: 50vw;
+  transform: translateX(-200vw);
+  transition: transform .5s ease-out;
   z-index: 20;
 }
 

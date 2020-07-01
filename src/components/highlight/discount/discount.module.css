@@ -50,6 +50,25 @@
   }
   to {
     color: rgb(45, 170, 128);
-    text-shadow: 2px 2px 2px rgba(157, 255, 222, 0.7);
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .amount {
+    flex: 0 0 25rem;
+  }
+  .amount h3 {
+    font-size: 5rem;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .condition {
+    padding: 1rem 2rem;
   }
 }

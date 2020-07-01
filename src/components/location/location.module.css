@@ -1,1 +1,14 @@
-.main {}
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+.main h1 {
+  display: block;
+  background-color: brown;
+  color: white;
+  margin-bottom: 0;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}

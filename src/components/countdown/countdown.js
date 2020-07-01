@@ -61,7 +61,7 @@ export default class Countdown extends Component {
     } = this.state;
     return (
       <div id="countdown" className={classes.main}>
-              <div className={classes.title}>Event Start in</div>
+              <div className={classes.title}>Event Start in :</div>
               <div className={classes.times}>
                 <div className={classes.item}>
                   <div className={classes.time}>{days}</div>

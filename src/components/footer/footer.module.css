@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2rem;
 }
 
 .logo_title {
@@ -12,4 +13,5 @@
 }
 
 .logo_subtitle {
+  margin-top: .5rem;
 }

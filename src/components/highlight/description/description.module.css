@@ -12,3 +12,12 @@
   padding: 1rem 0;
   text-align: justify;
 }
+
+@media screen and (min-width: 42rem) {
+  .main {
+    padding: 2rem 10rem;
+  }
+  .info {
+    padding: 1rem;
+  }
+}

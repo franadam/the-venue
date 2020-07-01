@@ -9,7 +9,7 @@ export default class Highlight extends Component {
   render() {
     return (
       <div id="highlight" className={classes.main}>
-        <h1 className={classes.title}>Highlight</h1>
+        <h1 className={classes.title}>Highlights</h1>
         <Description />
         <Discount />
       </div>

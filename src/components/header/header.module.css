@@ -1,7 +1,3 @@
-/*====================
-        HEADER
-======================*/
-
 .navbar {
   padding:1rem;
   color: white;
@@ -44,4 +40,10 @@
 .menu:hover div {
   background-color: brown;
   box-shadow: 2px 2px 2px rgba(184, 46, 46, 0.7);
+}
+
+@media screen and (min-width: 42rem) {
+  .navbar {
+    padding-right: 2rem;
+  }
 }

@@ -12,7 +12,7 @@ export default class Header extends Component {
   componentDidMount = () => {
     window.addEventListener('scroll', this.scrollHandler);
     document.getElementById('container').addEventListener('click', () => {
-      document.getElementById('sidebar').style.display = "none";
+      document.getElementById('sidebar').style.transform = "translateX(-200vw)";
     })
   }
 
@@ -22,8 +22,7 @@ export default class Header extends Component {
   }
 
   sidebarHandler = () => {
-    let x = document.getElementById('sidebar');
-    x.style.display = x.style.display === "none" ? x.style.display = "flex" : x.style.display = "none";
+    document.getElementById('sidebar').style.transform = "translateX(0)";
     console.log('sidebar')
   }
 

@@ -80,3 +80,20 @@
   width: 10rem;
   transform: rotateZ(45deg) translateX(1.8rem) translateY(-2.1rem);
 }
+
+@media screen and (min-width: 42rem) {
+  .items {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .item {
+    margin: 0 2rem;
+    height: 20rem;
+  }
+  .highlighted {
+    height: 24rem;
+  }
+  .badge {
+    width: 14rem;
+  }
+}
